@@ -13,9 +13,9 @@ body {
      #header {
        text-align: center;
        background-color: #FFFFFF;
-       height: 228px;
 
        #logo {
+	     padding: 10px 0px; 
 	     float: left;
 	     align: middle;
 	   }
@@ -23,7 +23,7 @@ body {
 	   #contacts {
 		 width: 100%;
 		 text-align: right;
-		 padding: 20px 30px; 
+		 padding: 10px 0px; 
 		
 	     h1 {
 		   font: {
