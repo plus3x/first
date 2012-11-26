@@ -5,6 +5,7 @@
 body {
   background-color: #99CCFF;
   text-align: center;
+  width: 100%;
   
   div#body {
 	padding: 0;
@@ -26,15 +27,15 @@ body {
          size: 24px;
        }
 
-      ul {
-        list-style:none;
-        list-style-type:none;
-      }
+       ul {
+         list-style:none;
+         list-style-type:none;
+       }
 
-      li {
-        padding: 2px 10px;
-        display:inline;
-      }
+       li {
+         padding: 2px 10px;
+         display:inline;
+       }
 
     }
 
