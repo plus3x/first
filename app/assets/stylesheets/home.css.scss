@@ -4,48 +4,51 @@
 
 body {
   background-color: #99CCFF;
-  margin: 0% 20%;
+  text-align: center;
+  
+  div#body {
+	weight: 300px;
+	
+     #header {
+       text-align: center;
+       background-color: #FFFFFF;
+       /* height: 120px; */
+     }
 
-  #header {
-    text-align: center;
-    background-color: #FFFFFF;
-    height: 120px;
+     #menu {
+       margin: 5px 10px;
+       background-color: #FFFFFF;
+       font: {
+         family: serif;
+         weight: bold;
+         size: 24px;
+       }
+
+      ul {
+        list-style:none;
+        list-style-type:none;
+      }
+
+      li {
+        padding: 2px 10px;
+        display:inline;
+      }
+
+    }
+
+    #content {
+      margin: 5px 10px;
+      background-color: #FFFFFF;
+
+      h1 { 
+        weight: 100%;
+        text-align: center;
+      }
+
+      p {
+        padding: 20px 10%;
+      }
+
+    }
   }
-
-  #menu {
-    margin: 5px 10px;
-    background-color: #FFFFFF;
-    font: {
-      family: serif;
-      weight: bold;
-      size: 24px;
-    }
-
-    ul {
-      list-style:none;
-      list-style-type:none;
-    }
-
-    li {
-      padding: 2px 10px;
-      display:inline;
-    }
-
-  }
-
-  #content {
-    margin: 5px 10px;
-    background-color: #FFFFFF;
-
-    h1 { 
-      weight: 100%;
-      text-align: center;
-    }
-
-    p {
-      padding: 20px 10%;
-    }
-
-  }
-
 }

@@ -7,18 +7,26 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <div id="header">
-		<%= image_tag("rails.png") %>
-  </div>
-  <div id="menu">
-	<ul>
-		<%= content_tag(:li, link_to("Главная", root_path)) %>
+  <div id="body">
+	
+    <div id="header">
+	  <%= image_tag("header_antoshka.png") %>
+    </div>
+
+    <div id="menu">
+	
+	  <ul>
+	 	<%= content_tag(:li, link_to("Главная", root_path)) %>
 		<%= content_tag(:li, link_to("О компании", about_path)) %>
-	</ul>
-  </div>
-  <div id="content">
+	  </ul>
+	
+    </div>
+
+    <div id="content">
 			
-    <%= yield %>
+      <%= yield %>
+
+    </div>
 
   </div>
 </body>
