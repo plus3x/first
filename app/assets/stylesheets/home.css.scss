@@ -8,26 +8,29 @@ body {
   div#body {
 	margin-left: auto;
     margin-right: auto;
-    width: 1180px;
+    width: 74%;
 	
      #header {
        text-align: center;
-       background-color: #FFFFFF;
 
        #logo {
-	     padding: 10px 0px; 
 	     float: left;
 	     align: middle;
+	     
+	     img {
+	       width: 400px;
+	       height: 130px;
+	     }
 	   }
 	   
 	   #contacts {
 		 width: 100%;
 		 text-align: right;
-		 padding: 10px 0px; 
 		
 	     h1 {
+		   color: #F30;
 		   font: {
-             family: Georgia;
+             family: Comic Sans MS;
              weight: bold;
              size: 20px;
            }
@@ -36,37 +39,35 @@ body {
      }
 
      #menu {
-       margin: 1px 0px;
-       background-color: #FFFFFF;
        font: {
-         family: serif;
+         family: Comic Sans MS;
          weight: bold;
          size: 24px;
        }
-
+	
        ul {
+	     padding: 0px;
+	     margin: 0px;
+	     width: 100%;
 	     text-align: left;
          list-style:none;
-         list-style-type:none;
        }
 
        li {
-         padding: 1px 10px;
          display:inline;
        }
 
        a {
 	     text-decoration: none;
-	     color: #000000;
        }
 
        a:hover {
-	     color: #FF0000;
+	     text-decoration: underline;
        }
 
        /* Dosen't work */
        a:active {
-	     color: #FF0000;
+	     text-decoration: underline;
        }
 
     }

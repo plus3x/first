@@ -11,7 +11,7 @@
 	
     <div id="header">
 	  <div id="logo"> 
-	    <%= image_tag("header_antoshka_simple_name.png") %>
+	    <%= image_tag("antoshka_comic_sans.png") %>
 	  </div>
 	  <div id="contacts">
 		<h1>8 (812) 602 16 44</h1>
@@ -23,8 +23,8 @@
     <div id="menu">
 	
 	  <ul>
-	 	<%= content_tag(:li, link_to("Главная", root_path)) %>
-		<%= content_tag(:li, link_to("О компании", about_path)) %>
+	 	<%= content_tag(:li, link_to("Главная", root_path, :style => 'color:#F30')) %>
+		<%= content_tag(:li, link_to("О компании", about_path, :style => 'color:#F90')) %>
 	  </ul>
 	
     </div>
